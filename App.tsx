@@ -5,7 +5,7 @@ import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context'
 export default function App() {
 
   const frases = ["Dica: faça uma breve pausa!", "Lembrete: Hidrate-se!", "Respire fundo e continue!"]
-  const [bio, setBio] = useState("n sei")
+  const [bio, setBio] = useState("")
   const [bioEditada, setBioEditada] = useState("")
   const [showModal, setShowModal] = useState(false)
   const [showNotifation, setShowNotification] = useState(false)
